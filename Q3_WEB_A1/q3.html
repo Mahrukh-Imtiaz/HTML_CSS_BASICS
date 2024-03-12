@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Application Form</title>
+<link rel="stylesheet" href="q3.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Job Application Form</h2>
+        <form id="jobApplicationForm" enctype="multipart/form-data">
+
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+    
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+    
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number" required>
+    
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="street">Street Address:</label>
+            <input type="text" id="street" name="street" required>
+    
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+    
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+    
+            <label for="zip_code">ZIP Code:</label>
+            <input type="text" id="zip_code" name="zip_code" required>
+    
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+    
+            <label for="cover_letter">Cover Letter:</label>
+            <textarea id="cover_letter" name="cover_letter" rows="5" required></textarea>
+    
+            <label for="Education"> Recent Education:</label>
+            <input type="text" id="Education" name="Education" required>
+    
+            <label for="Institution_name">Institution name:</label>
+            <input type="text" id="Institution_name" name="Institution_name" required>
+            
+            <label for="Previous_Company"> Name of previous company (Type none if it's your first job):</label>
+            <input type="text" id="Previous_Company" name="Previous_Company" required>
+
+            <label for="Employement_Date"> Employement Date:</label>
+            <input type="date" id="Employement_Date" name="Employement_Date" >
+            <br>
+
+            <label for="Skills"> Skills:</label>
+            <input type="text" id="Skills" name="Skills" required>
+
+            <label for="Availibility"> When can you start?</label>
+            <input type="date" id="Availibility" name="Availibility" required>
+            <br>
+
+
+            <label for="Work_schedule"> Preferred Work_schedule (Hybrid,onsite):</label>
+            <input type="text" id="Work_schedule" name="Work_schedule" required>
+
+            <label for="Reference"> Please mention name if you have any Reference:</label>
+            <input type="text" id="Reference" name="Reference" >
+
+            <label for="Add_Q"> Why do you want to work for this company?</label>
+            <input type="text" id="Add_Q" name="Add_Q" required>
+
+            <label for="terms_agreement">  I agree to the terms and conditions</label>
+            <input type="checkbox" id="terms_agreement" name="terms_agreement" required>
+     
+            
+            <label for="privacy_policy"> I acknowledge the Privacy Policy</label>
+            <input type="checkbox" id="privacy_policy" name="privacy_policy" required>
+         
+            
+            <br>
+            <br>
+
+           
+    
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="f.js"></script>
+</body>
+</html>
